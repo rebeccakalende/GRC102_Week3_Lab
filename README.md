@@ -71,3 +71,56 @@ The CISO and Risk Management function should work together to ensure that cybers
 IT teams and business unit leaders should receive clear security requirements and escalation procedures. Legal, Compliance, Finance, and HR should participate in decisions related to their areas of responsibility.
 
 This approach promotes shared accountability and reduces dependence on the IT department for all security decisions.
+
+## 1.3 Security Governance Organisation Chart
+
+
+### Proposed Security Governance Structure
+
+The proposed structure separates strategic oversight, security leadership, risk management, and technical implementation.
+
+```text
+Board of Directors
+        |
+        v
+Chief Executive Officer (CEO)
+        |
+        v
+Security Governance Committee
+        |
+        +-----------------------+
+        |                       |
+        v                       v
+       CISO              CRO / Risk Management
+        |
+        +-----------------------+
+        |           |           |
+        v           v           v
+      IT        Legal &       Business
+   Technology   Compliance     Units
+                    |
+                    v
+                   HR
+                    |
+                    v
+                 Finance
+```
+
+### Roles and Reporting Relationships
+
+- **Board of Directors:** Provides strategic oversight and accountability.
+- **CEO:** Provides executive leadership and approves strategic priorities.
+- **Security Governance Committee:** Coordinates security governance across departments.
+- **CISO:** Leads cybersecurity strategy, security operations coordination, and security reporting.
+- **CRO / Risk Management:** Provides independent risk oversight and supports risk treatment.
+- **IT / Technology:** Implements and maintains technical security controls.
+- **Legal and Compliance:** Advises on regulatory, legal, and privacy requirements.
+- **Business Units:** Implement security requirements within their operational areas.
+- **HR:** Supports security awareness, training, and employee accountability.
+- **Finance:** Supports security budgeting and financial oversight.
+
+### Suitability for TechGlobal
+
+The proposed governance structure is suitable for TechGlobal because the organisation has approximately 2,500 employees across five offices. It distributes security responsibilities across different functions and reduces dependence on the IT Director.
+
+The structure also supports executive oversight, independent risk management, clear accountability, and consistent security practices across the organisation.
