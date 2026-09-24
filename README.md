@@ -41,4 +41,33 @@ This approach will improve accountability, strengthen risk oversight, support co
 
 ## 1.2 Stakeholder Map
 
-*To be completed in the next step.*
+
+### Introduction
+
+The stakeholder map identifies the key individuals and departments involved in security governance at TechGlobal. It outlines their interests, authority, information needs, and expected contribution.
+
+Effective security governance requires collaboration between executive leadership, risk management, technical teams, and business units.
+
+### Stakeholder Analysis
+
+| Stakeholder | Interests | Authority | Information Needs | Expected Contribution |
+|---|---|---|---|---|
+| Board of Directors | Business resilience, compliance, reputation, and strategic risk | Provides oversight and approves major strategic decisions | Major risks, incidents, compliance, and security performance | Provides oversight and accountability |
+| CEO | Business continuity, performance, and risk management | Approves strategic priorities and provides executive direction | Critical risks, incidents, financial impact, and security performance | Provides executive sponsorship |
+| CISO | Security strategy, risk reduction, and incident response | Leads security governance and recommends security decisions | Security risks, incidents, controls, and audit findings | Develops security strategy and coordinates security activities |
+| CRO / Risk Management | Enterprise risk management and business resilience | Coordinates risk management and challenges risk decisions | Risk assessments, risk registers, and treatment plans | Integrates cybersecurity into enterprise risk management |
+| Legal, Privacy, and Compliance | Legal compliance, privacy, contracts, and regulatory requirements | Provides legal and compliance advice | Regulatory requirements, incidents, and contracts | Supports compliance, privacy, and regulatory reporting |
+| Finance | Budget control and financial accountability | Controls or approves security expenditure according to policy | Budgets, business cases, and financial impact | Supports security budgeting and financial oversight |
+| Human Resources | Employee awareness, training, and conduct | Manages employee-related policies and processes | Training records, policy violations, and staff changes | Supports awareness, training, and employee accountability |
+| IT / Technology | System availability, infrastructure security, and access management | Implements and maintains technical controls | Vulnerabilities, incidents, access requests, and technical risks | Implements security controls and supports incident response |
+| Business Unit Leaders | Business productivity and protection of business information | Makes operational decisions within assigned responsibilities | Business risks, security requirements, and incidents | Implements security requirements within business units |
+
+### Stakeholder Engagement Approach
+
+The Board and CEO should receive regular reports on significant security risks, incidents, compliance, and security performance.
+
+The CISO and Risk Management function should work together to ensure that cybersecurity risks are included in enterprise risk management.
+
+IT teams and business unit leaders should receive clear security requirements and escalation procedures. Legal, Compliance, Finance, and HR should participate in decisions related to their areas of responsibility.
+
+This approach promotes shared accountability and reduces dependence on the IT department for all security decisions.
