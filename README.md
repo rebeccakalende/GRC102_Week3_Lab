@@ -215,76 +215,258 @@ The following principles should be applied at TechGlobal:
 5. Major security decisions should be documented and traceable for audit purposes.
 
 
+
 ## Task 3: Security Governance Committee Ecosystem
 
-### 3.1 Purpose of the Security Governance Committee
+### 3.1 Governance Committee Structure
 
-The Security Governance Committee will provide cross-functional oversight of information security at TechGlobal. It will ensure that security decisions align with business objectives, regulatory requirements, risk appetite, and organizational priorities.
+TechGlobal will adopt a three-level security governance structure consisting of strategic oversight, cross-functional governance, and operational working groups. This structure ensures that security decisions are reviewed collectively rather than being concentrated within one department.
 
-The committee will support collaboration between senior management, security, risk, legal, finance, human resources, IT, and business units.
+The proposed governance structure includes:
 
-### 3.2 Committee Membership
+1. Executive Security Council: Provides strategic oversight and executive decision-making.
+2. Security Governance Steering Committee: Coordinates cross-functional governance and security risk decisions.
+3. Incident Response and Cybersecurity Working Group: Coordinates operational security activities and incident response.
+4. Business Unit Security Representatives: Support implementation and communication within business units.
 
-The proposed members of the Security Governance Committee are:
+### 3.2 Executive Security Council
 
-| Member | Role in the Committee | Main Contribution |
+#### Purpose
+
+The Executive Security Council provides strategic oversight of information security and ensures that security priorities align with business objectives, organizational risk appetite, and regulatory requirements.
+
+#### Membership
+
+| Member | Responsibility |
+|---|---|
+| CEO | Executive sponsor and strategic decision-maker |
+| Board Representative | Provides Board-level oversight where required |
+| CISO | Presents security strategy, risks, and performance |
+| CRO/Risk Manager | Provides enterprise risk information |
+| CFO/Finance Representative | Reviews investment and budget implications |
+| Legal and Compliance Representative | Advises on regulatory and legal exposure |
+| Business Executive Representatives | Provide business priorities and operational impact |
+
+#### Responsibilities
+
+- Approve strategic security priorities and major security investments.
+- Review significant cybersecurity risks and incidents.
+- Review security performance and key risk indicators.
+- Approve major risk treatment decisions within delegated authority.
+- Escalate material risks and decisions to the Board.
+- Ensure security supports business continuity and organizational objectives.
+
+The Executive Security Council should meet quarterly and whenever a material security incident or strategic risk requires executive attention.
+
+### 3.3 Security Governance Steering Committee
+
+#### Purpose
+
+The Security Governance Steering Committee provides cross-functional governance and coordinates security decisions across TechGlobal's departments and five offices.
+
+#### Membership
+
+| Member | Responsibility |
+|---|---|
+| CISO | Chairperson and security governance lead |
+| CRO/Risk Manager | Risk assessment and monitoring |
+| IT/Technology Representative | Technical security and infrastructure |
+| Legal and Compliance Representative | Regulatory and compliance guidance |
+| Finance Representative | Security budget and investment review |
+| HR Representative | Awareness and employee-related security matters |
+| Business Unit Representatives | Business requirements and implementation |
+| Internal Audit Representative | Independent assurance and audit follow-up |
+
+#### Responsibilities
+
+- Review security risks and proposed treatment plans.
+- Coordinate security policies and standards.
+- Review compliance and audit findings.
+- Monitor security awareness and training.
+- Review security exceptions and control gaps.
+- Coordinate security improvement projects.
+- Recommend major decisions to the Executive Security Council.
+- Monitor the implementation of decisions across business units.
+
+The committee should meet monthly, with emergency meetings scheduled when significant risks or incidents arise.
+
+### 3.4 Specialised Working Group: Incident Response and Cybersecurity Working Group
+
+#### Purpose
+
+The Incident Response and Cybersecurity Working Group will coordinate the identification, investigation, containment, response, and recovery of cybersecurity incidents.
+
+#### Membership
+
+- Security Operations/Security Team
+- IT Infrastructure and Network Team
+- CISO or Security Manager
+- Legal and Compliance Representative
+- HR Representative, where employee involvement is relevant
+- Communications Representative
+- Business Unit Representative affected by the incident
+
+#### Responsibilities
+
+1. Monitor and identify security incidents.
+2. Classify incidents according to severity and business impact.
+3. Coordinate containment, eradication, and recovery activities.
+4. Maintain incident records and evidence.
+5. Communicate incidents through approved escalation channels.
+6. Conduct post-incident reviews.
+7. Recommend improvements to controls and procedures.
+8. Report significant incidents to the Security Governance Steering Committee.
+
+The working group will meet operationally as required and conduct scheduled incident response exercises at least twice per year.
+
+### 3.5 Business Unit Participation
+
+Business units will participate in security governance through designated Business Unit Security Representatives. This approach will ensure that business units contribute to governance without creating independent security silos.
+
+Business Unit Security Representatives will:
+
+- Communicate security policies and requirements to their departments.
+- Identify and report business-specific security risks.
+- Support security awareness and training.
+- Participate in risk assessments and control reviews.
+- Track implementation of security actions.
+- Escalate security exceptions and incidents.
+- Attend relevant Steering Committee meetings when required.
+
+All business units will follow the organization-wide security policies, risk management process, escalation procedure, and reporting requirements. Security decisions that affect multiple departments will be coordinated through the Security Governance Steering Committee.
+
+### 3.6 Governance Decision and Information Flow
+
+The movement of security information and decisions will follow this process:
+
+1. Operational teams identify incidents, risks, control gaps, or security improvement needs.
+2. The specialised Working Group investigates and assesses operational matters.
+3. Significant issues are submitted to the Security Governance Steering Committee.
+4. The Steering Committee reviews business impact, risk, compliance, and resource requirements.
+5. Recommendations are escalated to the Executive Security Council when executive authority is required.
+6. Material risks, major investments, and significant organizational impacts are escalated to the Board.
+7. Approved decisions are communicated to operational teams and Business Unit Security Representatives.
+8. Implementation progress is monitored and reported through the governance structure.
+
+### 3.7 Governance Interaction Diagram
+
+```text
+                    BOARD OF DIRECTORS
+                            |
+                            |
+              EXECUTIVE SECURITY COUNCIL
+                            |
+                            |
+          SECURITY GOVERNANCE STEERING COMMITTEE
+                    /       |        \
+                   /        |         \
+                  /         |          \
+     INCIDENT RESPONSE   RISK/COMPLIANCE   BUSINESS UNIT
+      WORKING GROUP       REVIEWS          REPRESENTATIVES
+             |                |                  |
+             |                |                  |
+       OPERATIONAL      RISK AND CONTROL    IMPLEMENTATION
+       SECURITY TEAMS   MONITORING          AND FEEDBACK
+             |
+             |
+      IT AND BUSINESS UNIT OPERATIONS
+
+Information flows upward through reporting and escalation.
+Approved decisions flow downward through policies, action plans,
+and assigned responsibilities.
+```
+
+### 3.8 Terms of Reference
+
+#### Committee Name
+
+TechGlobal Security Governance Steering Committee
+
+#### Purpose
+
+To provide coordinated, cross-functional oversight of information security risks, controls, compliance, and security improvement activities.
+
+#### Authority
+
+The committee may review security matters, request information, coordinate corrective actions, and make recommendations within its delegated authority. Matters exceeding its authority must be escalated to the Executive Security Council or Board.
+
+#### Meeting Frequency
+
+The committee will meet monthly and may convene emergency meetings when significant security issues arise.
+
+#### Quorum
+
+A quorum should include the CISO or delegated chairperson, the CRO/Risk representative, and at least two relevant cross-functional members.
+
+#### Decision-Making
+
+Decisions should be based on documented evidence, risk assessments, business impact, compliance requirements, and available resources. Significant decisions must be recorded in the decision log.
+
+#### Reporting
+
+The committee will report to the Executive Security Council on security risks, incidents, audit findings, policy exceptions, security performance, and outstanding actions.
+
+#### Review
+
+These Terms of Reference should be reviewed annually or after significant changes to the organization's structure, risk profile, or regulatory obligations.
+
+### 3.9 Sample Committee Agenda
+
+**Meeting:** Security Governance Steering Committee  
+**Frequency:** Monthly  
+**Chairperson:** CISO  
+**Duration:** 90 minutes
+
+| Agenda Item | Duration | Responsible Person |
+|---|---:|---|
+| Opening and confirmation of previous minutes | 5 minutes | CISO |
+| Review of outstanding action items | 10 minutes | Committee Secretary |
+| Security risk register review | 15 minutes | CRO/Risk Manager |
+| Security incidents and lessons learned | 15 minutes | Incident Response Lead |
+| Compliance and audit updates | 10 minutes | Legal/Compliance |
+| Security projects and performance indicators | 10 minutes | CISO/IT |
+| Business unit security updates | 10 minutes | Business Unit Representatives |
+| Decisions and recommendations | 10 minutes | Committee Chair |
+| Summary of actions and closing | 5 minutes | Committee Secretary |
+
+### 3.10 Sample Decision Log
+
+| Decision ID | Date | Decision | Risk/Business Reason | Decision Owner | Status |
+|---|---|---|---|---|---|
+| SG-001 | 2026-10-05 | Implement mandatory MFA for privileged accounts. | Reduce unauthorized access and account compromise risks. | CISO | Approved |
+| SG-002 | 2026-11-02 | Conduct a third-party security assessment for critical suppliers. | Reduce supply-chain and vendor-related security risks. | CRO/Risk Manager | In Progress |
+| SG-003 | 2026-12-07 | Approve a security awareness programme for all five offices. | Improve employee security awareness and reduce human-related risks. | HR and CISO | Approved |
+
+These entries are illustrative examples and should be updated with actual committee decisions when the governance process is implemented.
+
+### 3.11 Twelve-Month Governance Calendar
+
+| Month | Governance Activity | Responsible Forum |
 |---|---|---|
-| CEO | Executive Sponsor | Provides executive direction and approves major strategic decisions. |
-| CISO | Committee Chair | Leads security governance, presents security risks, and coordinates security initiatives. |
-| CRO/Risk Manager | Risk Advisor | Provides enterprise risk assessments and monitors risk treatment. |
-| Legal and Compliance Representative | Compliance Advisor | Advises on regulatory, legal, privacy, and contractual obligations. |
-| Finance Representative | Financial Advisor | Reviews security budgets, investments, and financial implications. |
-| HR Representative | People and Awareness Advisor | Supports employee awareness, training, and security-related conduct matters. |
-| IT Director/Technology Representative | Technical Advisor | Provides updates on infrastructure, technical controls, and operational security. |
-| Business Unit Representatives | Business and Operations Advisors | Represent business needs and support implementation of security requirements. |
+| October | Approve annual security priorities and review privileged access controls. | Executive Council and Steering Committee |
+| November | Conduct third-party risk review and supplier security assessment. | Steering Committee and Working Group |
+| December | Review security awareness programme and annual compliance status. | Steering Committee |
+| January | Approve annual security training and incident response exercise plan. | Executive Council |
+| February | Conduct access review and vulnerability management review. | Working Group |
+| March | Review first-quarter security performance and risk indicators. | Executive Council and Steering Committee |
+| April | Conduct incident response simulation exercise. | Incident Response Working Group |
+| May | Review business continuity and disaster recovery security controls. | Steering Committee |
+| June | Conduct mid-year security governance and policy review. | Executive Council |
+| July | Review supplier risks and security contract requirements. | Risk and Compliance Working Group |
+| August | Conduct security awareness evaluation and control testing. | Steering Committee |
+| September | Complete annual security governance evaluation and prepare next year's priorities. | Executive Council and Board |
 
-### 3.3 Committee Responsibilities
+The governance calendar should be reviewed periodically to reflect changes in the organization's risk environment, business priorities, and regulatory obligations.
 
-The Security Governance Committee will be responsible for:
+### 3.12 Expected Governance Outcomes
 
-1. Reviewing the organization's security strategy and policies.
-2. Monitoring significant cybersecurity risks and risk treatment plans.
-3. Reviewing security incidents and lessons learned.
-4. Coordinating security awareness and training initiatives.
-5. Reviewing security compliance and audit findings.
-6. Recommending security investments and resource requirements.
-7. Reviewing exceptions to security policies and controls.
-8. Monitoring security performance indicators and key risk indicators.
-9. Ensuring that business units implement approved security requirements.
-10. Escalating significant security risks to the CEO and Board of Directors.
+The proposed governance ecosystem will:
 
-### 3.4 Meeting Frequency and Reporting
-
-The committee will meet at least once every quarter, with additional meetings arranged when significant security risks or incidents occur.
-
-The CISO will prepare an agenda and security performance report before each meeting. Meeting minutes will document decisions, assigned responsibilities, deadlines, and escalation requirements.
-
-The committee will provide regular reports to the CEO and Board of Directors covering:
-
-- Significant security risks and incidents.
-- Progress of security improvement initiatives.
-- Compliance and audit findings.
-- Security awareness and training performance.
-- Status of risk treatment plans.
-- Security budget and resource requirements.
-
-### 3.5 Committee Decision-Making and Escalation
-
-The committee will make recommendations based on documented evidence, risk assessments, and business impact analysis.
-
-Decisions involving major financial investments, significant risk acceptance, regulatory exposure, or organizational impact will be escalated to the CEO or Board of Directors according to the approved authority limits.
-
-All committee decisions must be documented to ensure accountability, transparency, and auditability.
-
-### 3.6 Expected Benefits
-
-The proposed Security Governance Committee will:
-
-1. Reduce the concentration of security decisions within the IT department.
-2. Improve collaboration between business and technical teams.
-3. Strengthen executive and Board visibility of security risks.
-4. Support consistent security decisions across all five offices.
-5. Improve regulatory compliance and risk management.
-6. Establish clear escalation and accountability processes.
-7. Promote a risk-based and business-aligned security culture.
+- Establish clear strategic and operational security oversight.
+- Reduce concentration of security decisions within one department.
+- Improve coordination between business units and security teams.
+- Strengthen risk escalation and executive visibility.
+- Support consistent security practices across all five offices.
+- Improve documentation, accountability, and decision traceability.
+- Provide a structured approach to security monitoring and continuous improvement.
 
