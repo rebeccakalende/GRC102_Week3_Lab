@@ -151,3 +151,7 @@ The matrix is designed to reduce confusion, prevent excessive concentration of a
 ### Governance Principle
 
 Security responsibilities should be distributed across the organisation. The CISO should lead security governance, Risk Management should provide independent risk oversight, and IT should implement technical controls. Major decisions should follow documented approval procedures.
+
+
+Add Task 2.1 Responsibility and Authority Matrix
+
