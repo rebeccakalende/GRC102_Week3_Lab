@@ -562,3 +562,73 @@ The RACI matrix will:
 - Improve decision-making during cybersecurity incidents.
 - Support effective escalation and reporting.
 - Strengthen governance and auditability.
+
+  
+## Task 5: Cyber-Risk Escalation and Segregation of Duties
+
+### 5.1 Major Cyber-Risk Escalation Workflow
+
+TechGlobal will use a structured escalation process to ensure that cybersecurity risks are identified, assessed, reported, and resolved by the appropriate authority.
+
+#### Escalation Workflow
+
+1. **Detection and Identification:** Operational teams identify a security incident, control weakness, or cyber risk.
+2. **Initial Assessment:** The IT/Security Team assesses the severity, business impact, affected systems, and urgency.
+3. **Classification:** The risk is classified as Operational, Executive, or Board/Material Risk.
+4. **Containment and Response:** The responsible team applies immediate controls and develops a remediation plan.
+5. **Governance Review:** Significant risks are reported to the Security Governance Steering Committee.
+6. **Executive Escalation:** Risks exceeding operational authority are escalated to the Executive Security Council or CEO.
+7. **Board Escalation:** Material risks with significant financial, legal, regulatory, or organizational impact are reported to the Board.
+8. **Monitoring and Closure:** Actions are tracked, reviewed, verified, and formally closed.
+
+### 5.2 Cyber-Risk Escalation Levels and Thresholds
+
+| Escalation Level | Trigger Criteria | Responsible Authority | Required Action |
+|---|---|---|---|
+| Level 1: Operational | Low-impact issue, limited systems affected, and manageable within existing procedures. | IT/Security Team | Resolve, document, and report through routine channels. |
+| Level 2: Executive | Significant service disruption, repeated control failure, high-risk vulnerability, or impact across departments. | CISO, Steering Committee, and CEO | Coordinate response, allocate resources, and escalate as required. |
+| Level 3: Board/Material Risk | Major business disruption, significant data exposure, regulatory impact, substantial financial loss, or risk exceeding approved appetite. | Executive Security Council and Board | Make strategic decisions, approve risk treatment, and oversee recovery. |
+
+The CISO and CRO/Risk Manager will support risk classification using documented severity, business impact, and risk appetite criteria.
+
+### 5.3 Segregation-of-Duties and Accountability Weakness Register
+
+| No. | Potential Weakness | Recommended Governance Control |
+|---|---|---|
+| 1 | One IT employee requests, approves, and implements privileged access. | Separate access requests, approvals, and implementation. Conduct periodic access reviews. |
+| 2 | The CISO recommends and independently approves major risk acceptance decisions. | Require independent CRO/Risk review and approval by the authorized risk owner. |
+| 3 | The same person requests and approves high-risk system changes. | Introduce change approval and post-implementation review by an independent person. |
+| 4 | IT controls security budgets without independent financial review. | Require Finance review and authorized executive approval for security expenditure. |
+| 5 | IT investigates and closes security incidents without independent oversight. | Require CISO or Security Governance Committee review of significant incidents and closure evidence. |
+| 6 | Business units bypass security controls to meet operational deadlines. | Introduce documented exceptions, expiry dates, risk assessment, and authorized approval. |
+
+These controls should be risk-based and proportionate to the activity. Low-risk activities may follow simplified approval processes, while high-risk decisions require stronger oversight.
+
+### 5.4 Decision Recording and Assurance Note
+
+TechGlobal will maintain a central security decision register to ensure that significant decisions are traceable and auditable.
+
+Each decision record should include:
+
+- Decision identification number.
+- Date and description of the issue.
+- Risk assessment and business impact.
+- Available options and recommended action.
+- Decision-maker and consulted stakeholders.
+- Approval or escalation authority.
+- Assigned actions and completion deadlines.
+- Implementation status and supporting evidence.
+- Review date and formal closure confirmation.
+
+The CISO and Security Governance Committee will review outstanding decisions regularly. Completed actions will be verified by the responsible reviewer before closure. Internal Audit may periodically examine the decision register, approvals, evidence, and closure records.
+
+### 5.5 Expected Outcomes
+
+The escalation and segregation-of-duties framework will:
+
+- Ensure that cyber risks reach the appropriate decision-making level.
+- Improve response to significant incidents and vulnerabilities.
+- Reduce conflicts of interest and excessive concentration of authority.
+- Strengthen accountability and decision traceability.
+- Support consistent risk acceptance and escalation.
+- Improve audit readiness and governance oversight.
