@@ -215,29 +215,3 @@ The following principles should be applied at TechGlobal:
 5. Major security decisions should be documented and traceable for audit purposes.
 
 
-### 2.2 Role Profiles and Conflict Identification
-
-This section defines the responsibilities of key security governance roles and identifies potential conflicts that should be managed through clear authority limits and segregation of duties.
-
-| Role | Role Profile | Potential Conflict | Recommended Control |
-|---|---|---|---|
-| Board of Directors | Provides strategic oversight and monitors organizational security risks. | May make decisions without sufficient technical information. | Receive independent security reports and expert advice. |
-| CEO | Provides executive leadership and approves strategic priorities. | May prioritize business continuity or cost reduction over security requirements. | Use documented risk assessments and governance committee recommendations. |
-| Security Governance Committee | Coordinates security governance and reviews cross-functional security issues. | Departmental interests may influence governance decisions. | Establish clear terms of reference and document committee decisions. |
-| CISO | Develops security strategy, policies, and security programmes. | May recommend and approve risk acceptance decisions. | Require independent risk review and executive approval for major risks. |
-| CRO/Risk Manager | Coordinates risk assessments and monitors risk treatment. | May face pressure to accept risks to support business objectives. | Apply documented risk criteria and independent challenge. |
-| Legal and Compliance | Provides legal, regulatory, privacy, and compliance guidance. | May be asked to approve decisions without adequate technical information. | Involve Legal and Compliance early in security decision-making. |
-| Finance | Manages security budgets and financial controls. | Cost reduction priorities may conflict with security investment needs. | Use risk-based business cases for security expenditure. |
-| Human Resources | Supports security awareness, employee conduct, and disciplinary processes. | Employee support responsibilities may conflict with disciplinary requirements. | Apply clear policies, confidentiality controls, and fair procedures. |
-| IT and Technology | Implements technical controls and manages IT infrastructure. | IT staff may request, approve, and implement their own privileged changes. | Separate change requests, approvals, and implementation activities. |
-| Business Unit Leaders | Implement security requirements within their departments. | Business deadlines may encourage staff to bypass security controls. | Require documented exceptions and appropriate approval. |
-
-#### Segregation of Duties Principles
-
-The following principles should be applied at TechGlobal:
-
-1. A person requesting privileged access should not be the sole approver.
-2. The person implementing a high-risk change should not independently approve the same change.
-3. Risk acceptance should involve an authorized risk owner and independent review.
-4. Security expenditure should follow the approved financial authorization process.
-5. Major security decisions should be documented and traceable for audit purposes.
