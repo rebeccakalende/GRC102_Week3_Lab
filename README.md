@@ -124,3 +124,30 @@ Security Governance Committee
 The proposed governance structure is suitable for TechGlobal because the organisation has approximately 2,500 employees across five offices. It distributes security responsibilities across different functions and reduces dependence on the IT Director.
 
 The structure also supports executive oversight, independent risk management, clear accountability, and consistent security practices across the organisation.
+
+
+## 2. Responsibility and Authority Matrix
+
+
+### 2.1 Responsibility and Authority Matrix
+
+The responsibility and authority matrix defines the responsibilities of key stakeholders in TechGlobal's security governance structure. It clarifies who leads, approves, advises, and implements security-related activities.
+
+The matrix is designed to reduce confusion, prevent excessive concentration of authority, and improve accountability across the organisation.
+
+| Role | Main Responsibilities | Decision-Making Authority | Accountability |
+|---|---|---|---|
+| Board of Directors | Strategic oversight and governance supervision | Approves major strategic risk decisions | Overall governance oversight |
+| CEO | Executive leadership and business alignment | Approves strategic priorities and major business decisions | Executive accountability |
+| Security Governance Committee | Coordinates security governance and reviews key risks | Recommends and coordinates governance decisions | Cross-functional governance coordination |
+| CISO | Security strategy, security policies, and security performance | Recommends security decisions and leads security governance | Security programme accountability |
+| CRO / Risk Management | Risk assessment, risk treatment, and risk reporting | Challenges and reviews risk decisions | Enterprise risk oversight |
+| Legal / Compliance | Legal, regulatory, privacy, and compliance guidance | Advises on compliance and regulatory obligations | Legal and compliance accountability |
+| Finance | Security budgeting and financial oversight | Reviews or approves spending according to policy | Financial accountability |
+| HR | Security awareness, training, and employee conduct | Manages employee-related processes | Workforce security accountability |
+| IT / Technology | Technical controls, infrastructure security, and operations | Implements approved technical changes and controls | Technical implementation accountability |
+| Business Unit Leaders | Business-level security responsibilities and operational compliance | Makes decisions within assigned business authority | Business unit accountability |
+
+### Governance Principle
+
+Security responsibilities should be distributed across the organisation. The CISO should lead security governance, Risk Management should provide independent risk oversight, and IT should implement technical controls. Major decisions should follow documented approval procedures.
