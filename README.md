@@ -155,3 +155,35 @@ Security responsibilities should be distributed across the organisation. The CIS
 
 Add Task 2.1 Responsibility and Authority Matrix
 
+
+## Task 2: Responsibility and Authority Matrix
+
+### 2.1 Responsibility and Authority Matrix
+
+The responsibility and authority matrix defines the roles responsible for security governance decisions at TechGlobal. It ensures that accountability, decision-making authority, and operational responsibilities are clearly assigned to prevent confusion, duplication, and unauthorized decisions.
+
+| Role | Main Responsibilities | Decision-Making Authority | Accountability |
+|---|---|---|---|
+| Board of Directors | Provide strategic oversight, approve major risk decisions, and monitor organizational security performance. | Approve the overall risk appetite and major security investments. | Accountable for organizational oversight and governance effectiveness. |
+| CEO | Provide executive leadership and ensure security supports business objectives. | Approve strategic priorities, major investments, and significant risk decisions within delegated authority. | Accountable for executive implementation of security governance. |
+| Security Governance Committee | Coordinate security governance across departments, review risks, and monitor security initiatives. | Recommend policies, priorities, and risk treatment decisions to executive management. | Accountable for cross-functional coordination and governance monitoring. |
+| CISO | Develop and implement the information security strategy, policies, and security programmes. | Approve security standards and operational security decisions within delegated authority. | Accountable for security programme performance and security risk reporting. |
+| CRO/Risk Manager | Coordinate enterprise risk assessments, risk reporting, and risk treatment monitoring. | Review risk assessments and challenge risk acceptance decisions. | Accountable for independent risk oversight and reporting. |
+| Legal and Compliance | Advise on legal, regulatory, privacy, and contractual security requirements. | Provide compliance guidance and review regulatory obligations. | Accountable for legal and regulatory compliance support. |
+| Finance Department | Manage security budgets, financial controls, and investment planning. | Approve expenditure according to financial authority limits. | Accountable for financial control and responsible use of security funds. |
+| Human Resources | Support employee awareness, disciplinary processes, and security responsibilities in employment policies. | Implement employee-related security procedures in coordination with management. | Accountable for employee security awareness and policy compliance support. |
+| IT and Technology | Implement technical security controls, manage infrastructure, and respond to technical incidents. | Make technical implementation decisions within approved policies and delegated authority. | Accountable for secure implementation, maintenance, and operational performance. |
+| Business Unit Leaders | Implement security requirements within their departments and report business-specific risks. | Approve departmental actions within their delegated authority and escalate exceptions. | Accountable for compliance and security performance within their business units. |
+
+### Governance Principles
+
+The responsibility and authority matrix is guided by the following principles:
+
+1. **Clear accountability:** Every security activity must have an assigned accountable role.
+2. **Separation of duties:** No individual should independently request, approve, and implement a high-risk security action.
+3. **Delegated authority:** Decisions should be made at the appropriate management level based on their potential impact.
+4. **Independent oversight:** Risk acceptance and compliance decisions should receive appropriate independent review.
+5. **Traceability:** Important security decisions must be documented, approved, and retained for audit purposes.
+
+This matrix supports TechGlobal's security governance by clarifying responsibilities, reducing conflicts of interest, improving escalation, and ensuring that security decisions are aligned with business objectives.
+
