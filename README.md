@@ -215,3 +215,76 @@ The following principles should be applied at TechGlobal:
 5. Major security decisions should be documented and traceable for audit purposes.
 
 
+## Task 3: Security Governance Committee Ecosystem
+
+### 3.1 Purpose of the Security Governance Committee
+
+The Security Governance Committee will provide cross-functional oversight of information security at TechGlobal. It will ensure that security decisions align with business objectives, regulatory requirements, risk appetite, and organizational priorities.
+
+The committee will support collaboration between senior management, security, risk, legal, finance, human resources, IT, and business units.
+
+### 3.2 Committee Membership
+
+The proposed members of the Security Governance Committee are:
+
+| Member | Role in the Committee | Main Contribution |
+|---|---|---|
+| CEO | Executive Sponsor | Provides executive direction and approves major strategic decisions. |
+| CISO | Committee Chair | Leads security governance, presents security risks, and coordinates security initiatives. |
+| CRO/Risk Manager | Risk Advisor | Provides enterprise risk assessments and monitors risk treatment. |
+| Legal and Compliance Representative | Compliance Advisor | Advises on regulatory, legal, privacy, and contractual obligations. |
+| Finance Representative | Financial Advisor | Reviews security budgets, investments, and financial implications. |
+| HR Representative | People and Awareness Advisor | Supports employee awareness, training, and security-related conduct matters. |
+| IT Director/Technology Representative | Technical Advisor | Provides updates on infrastructure, technical controls, and operational security. |
+| Business Unit Representatives | Business and Operations Advisors | Represent business needs and support implementation of security requirements. |
+
+### 3.3 Committee Responsibilities
+
+The Security Governance Committee will be responsible for:
+
+1. Reviewing the organization's security strategy and policies.
+2. Monitoring significant cybersecurity risks and risk treatment plans.
+3. Reviewing security incidents and lessons learned.
+4. Coordinating security awareness and training initiatives.
+5. Reviewing security compliance and audit findings.
+6. Recommending security investments and resource requirements.
+7. Reviewing exceptions to security policies and controls.
+8. Monitoring security performance indicators and key risk indicators.
+9. Ensuring that business units implement approved security requirements.
+10. Escalating significant security risks to the CEO and Board of Directors.
+
+### 3.4 Meeting Frequency and Reporting
+
+The committee will meet at least once every quarter, with additional meetings arranged when significant security risks or incidents occur.
+
+The CISO will prepare an agenda and security performance report before each meeting. Meeting minutes will document decisions, assigned responsibilities, deadlines, and escalation requirements.
+
+The committee will provide regular reports to the CEO and Board of Directors covering:
+
+- Significant security risks and incidents.
+- Progress of security improvement initiatives.
+- Compliance and audit findings.
+- Security awareness and training performance.
+- Status of risk treatment plans.
+- Security budget and resource requirements.
+
+### 3.5 Committee Decision-Making and Escalation
+
+The committee will make recommendations based on documented evidence, risk assessments, and business impact analysis.
+
+Decisions involving major financial investments, significant risk acceptance, regulatory exposure, or organizational impact will be escalated to the CEO or Board of Directors according to the approved authority limits.
+
+All committee decisions must be documented to ensure accountability, transparency, and auditability.
+
+### 3.6 Expected Benefits
+
+The proposed Security Governance Committee will:
+
+1. Reduce the concentration of security decisions within the IT department.
+2. Improve collaboration between business and technical teams.
+3. Strengthen executive and Board visibility of security risks.
+4. Support consistent security decisions across all five offices.
+5. Improve regulatory compliance and risk management.
+6. Establish clear escalation and accountability processes.
+7. Promote a risk-based and business-aligned security culture.
+
