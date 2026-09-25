@@ -470,3 +470,95 @@ The proposed governance ecosystem will:
 - Improve documentation, accountability, and decision traceability.
 - Provide a structured approach to security monitoring and continuous improvement.
 
+
+
+## Task 4: RACI Accountability Matrix
+
+### 4.1 Introduction
+
+The RACI matrix defines responsibility and accountability for key security governance activities at TechGlobal. It clarifies who performs the work, who approves decisions, who provides input, and who receives updates.
+
+### 4.2 RACI Legend
+
+| Code | Meaning | Explanation |
+|---|---|---|
+| R | Responsible | Performs or coordinates the activity. |
+| A | Accountable | Owns the final decision or outcome. |
+| C | Consulted | Provides advice or specialist input. |
+| I | Informed | Receives updates about the activity or decision. |
+
+### 4.3 TechGlobal RACI Matrix
+
+**Roles:**
+
+- Board: Board of Directors
+- CEO: Chief Executive Officer
+- CISO: Chief Information Security Officer
+- CRO: Chief Risk Officer/Risk Manager
+- SGC: Security Governance Committee
+- Legal: Legal and Compliance
+- Finance: Finance Department
+- IT: IT/Technology
+- BU: Business Unit Leaders
+
+| Activity | Board | CEO | CISO | CRO | SGC | Legal | Finance | IT | BU |
+|---|---|---|---|---|---|---|---|---|---|
+| Cybersecurity strategy approval | I | A | R | C | C | C | C | C | I |
+| Security policy approval | I | A | R | C | C | C | I | C | I |
+| Enterprise cyber-risk assessment | I | I | R | A | C | C | I | C | C |
+| Risk acceptance | I | A | R | C | C | C | I | C | I |
+| Security budget approval | I | A | R | C | C | I | R | C | I |
+| Security architecture approval | I | A | R | C | C | C | I | R | C |
+| Third-party security review | I | I | A | R | C | C | I | C | C |
+| Access governance | I | I | A | C | C | I | I | R | C |
+| Incident response governance | I | A | R | C | C | C | I | R | C |
+| Material incident escalation | I | A | R | C | C | C | I | R | I |
+| Regulatory notification decision | I | A | C | C | I | R | I | C | I |
+| Security awareness programme | I | I | A | C | C | C | I | C | R |
+| Vulnerability remediation oversight | I | I | A | C | C | I | I | R | C |
+| Business continuity/recovery governance | I | A | C | C | C | C | I | R | R |
+| Board cyber-risk reporting | A | R | R | C | C | C | I | C | I |
+
+### 4.4 Problematic Assignments and Recommended Improvements
+
+#### Problem 1: Risk Acceptance
+
+The CISO is responsible while the CEO is accountable. This may create a conflict if the CISO recommends and independently approves the same risk.
+
+**Recommended Control:** The CRO/Risk Manager should provide independent risk review, while authorized risk owners approve risk acceptance according to defined thresholds.
+
+#### Problem 2: Security Architecture Approval
+
+More than one role may become involved in final approval, which can create uncertainty about decision-making authority.
+
+**Recommended Control:** Assign one accountable role for each architecture decision. The CISO should provide security assurance, while executive approval should be required for major investments or significant risk exceptions.
+
+#### Problem 3: Security Budget Approval
+
+The CISO and Finance Department have different responsibilities in the budget process. Unclear authority may lead to delays or disagreements.
+
+**Recommended Control:** The CISO should prepare the security budget and justification, Finance should review financial controls, and the authorized executive should approve the final budget.
+
+### 4.5 RACI Implementation Guide
+
+Managers should use the RACI matrix during planning, approvals, normal operations, and cybersecurity incidents.
+
+1. **Planning:** Identify the Responsible and Accountable roles before starting an activity.
+2. **Approvals:** Confirm that the Accountable role has the authority to approve the decision.
+3. **Consultation:** Involve Consulted stakeholders before finalizing important decisions.
+4. **Communication:** Keep Informed stakeholders updated on progress and outcomes.
+5. **Incident Response:** Use the matrix to identify decision-makers, technical responders, and escalation responsibilities.
+6. **Documentation:** Record approvals, decisions, assigned actions, and completion status.
+7. **Review:** The CISO and Security Governance Committee should review the matrix annually or after major organizational changes.
+
+The RACI matrix should be used together with approved policies, delegated authority limits, risk thresholds, and incident response procedures.
+
+### 4.6 Expected Outcomes
+
+The RACI matrix will:
+
+- Clarify accountability for security activities.
+- Reduce confusion and duplicated responsibilities.
+- Improve decision-making during cybersecurity incidents.
+- Support effective escalation and reporting.
+- Strengthen governance and auditability.
